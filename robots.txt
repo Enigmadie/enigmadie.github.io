@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: http://1win.ru.com/sitemap.xml
+Host: 1win.ru.com
