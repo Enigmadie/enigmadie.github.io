@@ -22,7 +22,7 @@ exit;
 $dl = '<b style="color: red;">Ваш отзыв будет опубликован после проверки автором сайта</b>';
 }
 
-} else { 
+} else {
 
 $fp = @fopen("comments.txt", "r");
 if ($fp) {
@@ -31,73 +31,35 @@ $dl .= fgetss($fp, 8000, "<dl>,<dt>,<dd>,<span>");
 }
 }
 fclose($fp);
-} 
+}
 ?>
 <!DOCTYPE html>
 <html>
 
-<head> 
+<head>
 <meta name="yandex-verification" content="de1ac8d554cb4668" />
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
-<meta name="description" content="1win рабочий сайт, онлайн ставки на спорт. Отзывы и бонусы при первом депозите. Не упусти возможность победить!"> 
+<meta name="description" content="1win рабочий сайт, онлайн ставки на спорт. Отзывы и бонусы при первом депозите. Не упусти возможность победить!">
 <meta name="keywords" content="1win,1 win,1вин,1 вин, 1win agar, 1win отзывы, 1win зеркало">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter48773225 = new Ya.Metrika({
-                    id:48773225,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
 
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/48773225" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118817521-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-118817521-1');
-</script>
-
-
-<title>1win - бк: ставки на спорт, отзывы, рабочее зеркало </title> 
+<title>1win - бк: ставки на спорт, отзывы</title>
 </head>
 <body>
 <!-- Menu -->
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1a2430;">
    <a class="navbar-brand" href="#"><img src="images/logowin.jpg" alt="Логотип 1win"></img></a>
-   <img src="images/ball.png" class="logo" width="57" height="67" alt="Логотип"> 
+   <img src="images/ball.png" class="logo" width="57" height="67" alt="Логотип">
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 <div class="collapse navbar-collapse " id="navbarNav">
      <ul class="navbar-nav mr-4">
-       
+
        <li class="nav-item active">
          <a class="nav-link" href="#">Главная</a>
        </li>
@@ -107,7 +69,7 @@ fclose($fp);
        <li class="nav-item">
          <a class="nav-link " href="/contacts">Контакты</a>
        </li>
-     </ul>  
+     </ul>
    </div>
 </nav>
 
@@ -125,7 +87,7 @@ fclose($fp);
       <img class="d-block w-100" src="images/520.jpg"  alt="1win всегда рабочее зеркало">
         <div class="carousel-caption">
           <h4>Всегда рабочее зеркало 1win на сайте</h4>
-          <a href="http://1winu.top/bets/live" class="btn btn-primary btn-md" role="button" aria-pressed="true">Перейти на зеркало</a>
+          <a href="" class="btn btn-primary btn-md" role="button" aria-pressed="true">Перейти на зеркало</a>
         </div>
     </div>
     <div class="carousel-item">
@@ -158,7 +120,7 @@ fclose($fp);
     <div class="col-md-1 col-2"><a href="https://vk.com/1bull"><img src="social/vk1.png" width="40px" height="40px" alt="vk 1win"
        onmouseout="this.src='social/vk1.png'"
         onmouseover="this.src='social/vk2.png'"></a></div>
-      <div class="col-md-1 col-1"><a href="https://www.youtube.com/watch?v=DUHXlJz0gzk"><img src="social/youtube1.png" width="35px" height="35px" alt="youtube   1win,1win,бентли за репост" 
+      <div class="col-md-1 col-1"><a href="https://www.youtube.com/watch?v=DUHXlJz0gzk"><img src="social/youtube1.png" width="35px" height="35px" alt="youtube   1win,1win,бентли за репост"
         onmouseout="this.src='social/youtube1.png'"
         onmouseover="this.src='social/youtube2.png'"></a></div>
 <div class="col-md-4 col-1"></div>
@@ -177,18 +139,18 @@ fclose($fp);
           </table>
         </div>
     </div>
- 
+
 <!-- Main -->
 
 <div class="our-main">
 
 <div class="h1-block">
 <h1>1win ставки на спорт онлайн</h1>
-</div> 
+</div>
 <div class="container">
 <div class="row">
 <div class="col-md-1"></div>
-<div class="col-md-10 col-12 main">  
+<div class="col-md-10 col-12 main">
 <img class="img-block" src="images/1win.png" alt="1win">
 <h2>Преимущества ставок на бк 1 win</h2>
 <p><ul>
@@ -205,7 +167,7 @@ fclose($fp);
   </ul></p>
   <div class="row">
 <div class="col-3 col-md-4 col-lg-5"></div>
-  <a class="linkin" href="http://1winu.top/bets/live"> Зарегистрироваться </a>
+  <a class="linkin" href=""> Зарегистрироваться </a>
 <div class="col-5 col-md-4 col-lg-5"></div>
   </div>
 </div>
@@ -219,8 +181,8 @@ fclose($fp);
   <div class="col-md-1 col-0"></div>
     <div class="col-md-10 col-12 main">
 <h2>Зачем нужно зеркало 1win? </h2>
-<p><b>Зеркало сайта 1win </b> - с недавних пор насущная необходимость для большинства онлайн-бирж. 
-В силу недавнего ужесточения законодательства РФ о регулировании букмекерских контор, приводящих к блокировке доменов наших сайтов, появилась необходимость, по мере выявления проблемы, переезжать на новое зеркало (Та же страница, но с другим url адресом), которое не сразу попадает в поисковую выдачу. Для устранения проблемы мы предварительно распространяем ссылки рабочих зеркал, информируя игроков о переезде сайта по новому, рабочему адресу. 
+<p><b>Зеркало сайта 1win </b> - с недавних пор насущная необходимость для большинства онлайн-бирж.
+В силу недавнего ужесточения законодательства РФ о регулировании букмекерских контор, приводящих к блокировке доменов наших сайтов, появилась необходимость, по мере выявления проблемы, переезжать на новое зеркало (Та же страница, но с другим url адресом), которое не сразу попадает в поисковую выдачу. Для устранения проблемы мы предварительно распространяем ссылки рабочих зеркал, информируя игроков о переезде сайта по новому, рабочему адресу.
 Ужесточение законов также требует новых правил по верификации и аутентификации для всех пользователей, а на администрацию и владельцев букмекерской конторы вешает почти непосильное налоговое бремя. Но мы, тем не менее, не начинаем завышать коэффициенты и выдумывать схемы обмана, что и является нашим неоспоримым преимуществом. </p>
 
 <p>Новую ссылку вы всегда сможете найти на этой странице</p>
@@ -242,10 +204,10 @@ fclose($fp);
   <li>Запрещен любой вид недобросовестной игры, за "вилки" будут срезаны лимиты по ставкам</li>
   <li>Для регистрации необходим минимальный возраст 18+ лет</li>
 </ul>
- 
+
 
  <h3>Для регистрации на 1win необходимо:</h3>
- 
+
  <ul><li>Указать номер телефона и личную информацию по форме</li>
   <li>Привязать счет к депозиту</li>
 </ul>
