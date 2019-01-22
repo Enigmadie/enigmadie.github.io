@@ -1,43 +1,7 @@
-<?
-$z = array(
-1 => $_POST['name'],
-2 => $_POST['email'],
-3 => $_POST['content'],
-4 => date("m.d.Y H:i")
-);
-$dl = '';
-
-if($z[1] && $z[2] && $z[3]){
-
-mail("name@yandex.ru", "заполнена форма site.ru", $z[1] . "\n" . $z[2] . "\n" . $z[3]);
-
-if(strpos($z[3], 'http://') === false){
-$fp = fopen("comments.txt", "a+");
-$mytext = "<dt><a href='" . $z[2] . "'>" . $z[1] .  "</a><span>" . $z[4] . "</span><dd>" . $z[3] ;
-$save = fwrite($fp, $mytext);
-fclose($fp);
-Header("Location: ".$_SERVER['PHP_SELF']);
-exit;
-} else {
-$dl = '<b style="color: red;">Ваш отзыв будет опубликован после проверки автором сайта</b>';
-}
-
-} else {
-
-$fp = @fopen("comments.txt", "r");
-if ($fp) {
-while (!feof($fp)) {
-$dl .= fgetss($fp, 8000, "<dl>,<dt>,<dd>,<span>");
-}
-}
-fclose($fp);
-}
-?>
 <!DOCTYPE html>
 <html>
 
 <head>
-<meta name="yandex-verification" content="de1ac8d554cb4668" />
 <link rel="stylesheet" type="text/css" href="style.css">
 <meta charset="utf-8">
  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
